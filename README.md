@@ -30,5 +30,7 @@ queries.refetchQueriesByName(apolloClientInstance, ['myNamedQuery'])
 # API
 
 ```refetchQueriesByName (client: ApolloClient<any>, queryNames: Array<string>): Promise<any>```
+
 ```refetchQueryByName (client: ApolloClient<any>, queryName: string): Promise<any>```
+
 ```refetchAllQueries (client: ApolloClient<any>): Promise<any>```
